@@ -156,7 +156,7 @@ class LazyHero extends Component {
                     isCentered={this.props.isCentered}
                     opacity={this.props.opacity}
                 >
-                    {this.props.children && <div>{this.props.children}</div>}
+                    {this.props.children && <div className={this.props.contentWidth}>{this.props.children}</div>}
                 </Overlay>
             </Root>
         );
