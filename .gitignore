@@ -2,7 +2,6 @@
 /node_modules
 
 # production
-/lib
 /website/build
 
 # misc
